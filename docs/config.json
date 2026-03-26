@@ -241,6 +241,15 @@
           ]
         }
       ]
+    },
+    {
+      "label": "ภาษาไทย",
+      "children": [
+        {
+          "label": "เกี่ยวกับ TanStack DB",
+          "to": "readme-th"
+        }
+      ]
     }
   ]
 }
