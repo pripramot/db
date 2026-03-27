@@ -97,7 +97,7 @@ function ProductList() {
 - 🐛 แจ้งบั๊กหรือเปิด Pull Request ได้ที่ [GitHub](https://github.com/TanStack/db)
 - 💬 พูดคุยแลกเปลี่ยนความเห็นที่ [GitHub Discussions](https://github.com/TanStack/db/discussions)
 - 🎮 เข้าร่วมชุมชนนักพัฒนาที่ [Discord](https://discord.com/invite/WrRKjPJ)
-- 📖 อ่านแนวทางการมีส่วนร่วมที่ [CONTRIBUTING.md](https://github.com/TanStack/db/blob/main/CONTRIBUTING.md)
+- 📖 อ่านแนวทางการมีส่วนร่วมที่ [CONTRIBUTING.md](../CONTRIBUTING.md)
 
 ## พาร์ทเนอร์
 
