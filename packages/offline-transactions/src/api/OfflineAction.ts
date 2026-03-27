@@ -22,7 +22,6 @@ export function createOfflineAction<T>(
   executor: any,
 ): (variables: T) => Transaction {
   const { mutationFnName, onMutate } = options
-  console.log(`createOfflineAction 2`, options)
 
   return (variables: T): Transaction => {
     const offlineTransaction = new OfflineTransaction(
@@ -36,7 +35,6 @@ export function createOfflineAction<T>(
     )
 
     const transaction = offlineTransaction.mutate(() => {
-      console.log(`mutate`)
       const maybePromise = onMutate(variables) as unknown
 
       if (isPromiseLike(maybePromise)) {
@@ -48,9 +46,8 @@ export function createOfflineAction<T>(
     const commitPromise = (async () => {
       try {
         await transaction.commit()
-        console.log(`offlineAction committed - success`)
       } catch {
-        console.log(`offlineAction commit failed - error`)
+        // Commit failure is handled by the offline transaction executor
       }
     })()
 

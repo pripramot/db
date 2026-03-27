@@ -47,6 +47,33 @@ TanStack DB solves the problems of building fast, modern apps, helping you:
 
 Data loading is optimized. Interactions feel instantaneous. Your backend stays simple and your app stays blazing fast. No matter how much data you load.
 
+## Installation
+
+```bash
+npm install @tanstack/db @tanstack/react-db
+```
+
+```bash
+pnpm add @tanstack/db @tanstack/react-db
+```
+
+```bash
+yarn add @tanstack/db @tanstack/react-db
+```
+
+> Multi-framework support: **React**, **Vue**, **Angular**, **Solid**, and **Svelte** — use whichever framework you prefer.
+
+## Features
+
+| Feature | Description |
+|---------|-------------|
+| **Normalized Collections** | Store data in normalized collections to reduce redundancy |
+| **Live Queries** | Reactive queries that auto-update when data changes |
+| **Optimistic Mutations** | Instant UI feedback without waiting for the network |
+| **Multi-framework** | React, Vue, Angular, Solid, Svelte |
+| **Collection Adapters** | Connect with ElectricSQL, PowerSync, RxDB, TanStack Query, and more |
+| **SQLite Persistence** | Persist data to SQLite on Browser, Electron, React Native, Tauri, and more |
+
 <a href="https://tanstack.com/db" style="font-weight:bold" >Read the docs →</a>
 <br />
 
@@ -125,6 +152,5 @@ We're looking for TanStack DB Partners to join our mission! Partner with us to p
 - <a href="https://github.com/tanstack/virtual"><b>TanStack Virtual</b></a> – Virtualized rendering
 
 … and more at <a href="https://tanstack.com"><b>TanStack.com »</b></a>
-v>
 
 <!-- Use the force, Luke -->
